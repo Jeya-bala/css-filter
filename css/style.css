@@ -1,0 +1,56 @@
+.nofilter{
+    filter: none;
+}
+.gray{
+    filter: grayscale(70%);
+}
+.gray:hover{
+    filter: grayscale(100%);
+}
+.blur{
+    filter: blur(2px);
+}
+.blur:hover{
+    filter: blur(7px);
+}
+.bright{
+    filter: brightness(0.4));
+}
+.bright:hover{
+    filter: brightness(10);
+}
+.contrast{
+    filter: contrast(100%);
+}
+.contrast:hover{
+    filter: contrast(200%);
+}
+.hue{
+    filter: hue-rotate(25deg);
+}
+.hue:hover{
+    filter: hue-rotate(90deg);
+}
+.saturate{
+    filter: saturate(10%);
+}
+.saturate:hover{
+    filter: saturate(50%);
+}
+.sepia{
+    filter:sepia(60%);
+}
+.sepia:hover{
+    
+    filter: sepia(90%);
+}
+.invert:hover{
+    filter:invert(100%));
+}
+.dropdown{
+    
+    filter: drop-shadow(8px,8px,8px,gray);
+}
+
+
+
